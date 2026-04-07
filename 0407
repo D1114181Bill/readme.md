@@ -1,0 +1,19 @@
+### Initialisation
+$$
+\hat{\mathbf{h}}(0) = \operatorname{zeros}(p)
+$$
+
+### Computation
+For \( n = 0, 1, 2, \ldots \)
+
+$$
+\mathbf{x}(n) = \left[ x(n), x(n-1), \dots, x(n-p+1) \right]^T
+$$
+
+$$
+e(n) = d(n) - \hat{\mathbf{h}}^H(n)\mathbf{x}(n)
+$$
+
+$$
+\hat{\mathbf{h}}(n+1) = \hat{\mathbf{h}}(n) + \mu \, e^*(n)\mathbf{x}(n)
+$$
