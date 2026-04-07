@@ -3,7 +3,7 @@
 **Initialisation:**
 $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
 
-**Computation:**  $n = 0, 1, 2, \dots$ 
+**Computation:**  For$n = 0, 1, 2, \dots$ 
 
     $$\mathbf{x}(n) = [x(n), x(n-1), \dots, x(n-p+1)]^T$$
 
