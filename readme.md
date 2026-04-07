@@ -1,9 +1,9 @@
 ### **LMS 演算法步驟**
 
-**Initialisation (初始化):**
+**Initialisation:**
 $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
 
-**Computation (運算):** 針對 $n = 0, 1, 2, \dots$ 進行以下疊代：
+**Computation:** 針對 $n = 0, 1, 2, \dots$ 
 
 1.  **輸入向量 (Input Vector):**
     $$\mathbf{x}(n) = [x(n), x(n-1), \dots, x(n-p+1)]^T$$
@@ -15,12 +15,3 @@ $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
     $$\mathbf{\hat{h}}(n+1) = \mathbf{\hat{h}}(n) + \mu e^*(n)\mathbf{x}(n)$$
 
 ---
-
-**符號說明：**
-* $\mathbf{\hat{h}}(n)$：濾波器係數向量（估計值）。
-* $\mathbf{x}(n)$：輸入訊號向量。
-* $d(n)$：期望響應（Desired response）。
-* $e(n)$：估計誤差。
-* $\mu$：步長因子（Step-size parameter）。
-* $H$：共軛轉置（Hermitian transpose）。
-* $*$：共軛複數（Complex conjugate）。
