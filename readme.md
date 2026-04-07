@@ -16,11 +16,3 @@ $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
 
 ---
 
-**符號說明：**
-* $\mathbf{\hat{h}}(n)$：濾波器係數向量（估計值）。
-* $\mathbf{x}(n)$：輸入訊號向量。
-* $d(n)$：期望響應（Desired response）。
-* $e(n)$：估計誤差。
-* $\mu$：步長因子（Step-size parameter）。
-* $H$：共軛轉置（Hermitian transpose）。
-* $*$：共軛複數（Complex conjugate）。
