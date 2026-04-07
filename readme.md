@@ -1,4 +1,4 @@
-### **LMS 演算法步驟**
+### **D1114181026 LMS 演算法步驟**
 
 **Initialisation:**
 $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
