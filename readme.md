@@ -1,6 +1,6 @@
 ### **LMS 演算法步驟**
 
-**Initialisation (初始化):**
+**Initialisation:**
 $$\mathbf{\hat{h}}(0) = \text{zeros}(p)$$
 
 **Computation (運算):** For $(n) = 0, 1, 2, \dots$ 進行以下疊代：
